@@ -1,0 +1,11 @@
+
+train: ./dataset/yolov5-dataset/images/train  # train images (relative to 'path') 128 images
+val: ./dataset/yolov5-dataset/images/val  # val images (relative to 'path') 128 images
+
+# Classes
+nc: 14  # number of classes
+names: ['teeth_11','teeth_12','teeth_13','teeth_14','teeth_15','teeth_16','teeth_17','teeth_21','teeth_22','teeth_23','teeth_24','teeth_25','teeth_26','teeth_27']# class names
+
+
+# Download script/URL (optional)
+# download: https://ultralytics.com/assets/coco128.zip
